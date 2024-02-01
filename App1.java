@@ -1,30 +1,5 @@
-pipeline {
-    agent none
-    stages {
-        stage('Hello') {
-            steps {
-                echo 'Hello World'
-             }
-      }
-        stage('Birth') {
-            steps {
-                echo 'Welcome to the world!'
-            }
-        }
-        stage('Education') {
-            steps {
-                echo 'Learn, grow, and develop new skills.'
-            }
-        }
-        stage('Career') {
-            steps {
-                echo 'Find your passion and pursue a fulfilling career.'
-            }
-        }
-        stage('Retirement') {
-            steps {
-                echo 'R0000000000000000000000000000000e fruits of your labor, and reflect on a life well-lived.'
-            }
-        }
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!"); 
     }
 }
