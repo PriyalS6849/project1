@@ -23,7 +23,7 @@ pipeline {
         }
         stage('Retirement') {
             steps {
-                echo 'Relax, enjoy the fruits of your labor, and reflect on a life well-lived.'
+                echo 'R0000000000000000000000000000000e fruits of your labor, and reflect on a life well-lived.'
             }
         }
     }
